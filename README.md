@@ -7,12 +7,12 @@ Create an application that will do below
 + Ability to signin to the app
 + Maintain a list of allowed document classifications
 + Have a list of documents uploaded by a customer, with the document classification selected by the customer. 
-+ Have a **system auto classification** of the document based on the content of the document(Using any content recognition/machine learning models)  <font color = red> * - Key Feature </font> 
-+ If as per the system classification, the document uploaded is not corresponding to one of the allowed classification, or if the customer classification and system classification are different, mark the document as rejected automatically and allow admin to review the system decision <font color = red> * - Key Feature </font> 
++ Have a **system auto classification** of the document based on the content of the document(Using any content recognition/machine learning models) [***Key Feature***]
++ If as per the system classification, the document uploaded is not corresponding to one of the allowed classification, or if the customer classification and system classification are different, mark the document as rejected automatically and allow admin to review the system decision [***Key Feature***]
 + Based on manual review, admin should either reject the document and request for additional documents, or reclassify the document and mark as approved
 
 
-## Document Classification Model <font color = red> * - Key Feature</font>
+## Document Classification Model [***Key Feature***]
 
 + Create a ML application which can read contents of the document/image.
 + Based on the content of the document, and based on keywords in the document, classify the document into one of the known classifications listed in the app. 
@@ -51,4 +51,4 @@ Create an application that will do below
     + example : <PR team1>
 + Create a file called TestMe.md and mention  how to start the app and if any dependencies have to be downloaded to run the app locally
 
-<font color = red> *** Try not to use firebase or any internet provided services for creating or running the apps </font>
+***Try not to use firebase or any internet provided services for creating or running the apps***
